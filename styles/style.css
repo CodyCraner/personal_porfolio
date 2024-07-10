@@ -1,4 +1,16 @@
 nav{
     display: flex;
     justify-content: space-around;
+    background-color: aquamarine;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
+body
+{
+    text-align: center;
 }
