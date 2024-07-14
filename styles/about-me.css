@@ -1,7 +1,38 @@
 nav{
     display: flex;
     justify-content: space-around;
-}   
-img{
-    width: 25%;
+    background-color: aquamarine;
 }
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
+footer
+{
+    text-align: center;
+}
+
+
+.goalsImg
+{
+    width: 25%;
+    grid-column: 1/2;
+}
+.goalHeader
+{
+  
+    grid-column: 2/3;
+    
+
+}
+.goalBox
+{
+    display: grid;
+
+    grid-template-columns: 2fr, 2fr, 2fr;
+    align-items: center;
+}
+
