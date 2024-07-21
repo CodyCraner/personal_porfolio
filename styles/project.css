@@ -10,6 +10,7 @@ header{
     background-color: aquamarine;
     
 }
-img{
+.working{
     width: 25%;
+    text-align: left;
 }
